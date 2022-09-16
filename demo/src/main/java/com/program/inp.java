@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class inp {
     inp() {
-        System.out.println("enter input:");
+        System.out.println("enter");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         this.list = new String[n];
